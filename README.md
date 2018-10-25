@@ -8,4 +8,4 @@ Based on the docker metamap image. Serves tagger and WSD services via supervisor
 `docker build . -t metamap_server`
 
 ## Run server: 
-`docker run -d --restart unless-stopped -p 1795:1795 -p 5554:5554 metamap_server`
+`docker run -d --restart unless-stopped -p 1795:1795 -p 5554:5554 -p 8080:8080  metamap_server_v3`
