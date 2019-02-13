@@ -1,6 +1,6 @@
 # metamap_docker_server
 Based on the docker metamap image. Serves native Metamap services - Tagger and WSD via supervisord. As an addition there is 8080 port serves http2shell wrapper which executed command line metamap with arguments as parameters.   
-`curl "http://chi-metamap.ddns.net:8080/form?input=cancer&args=-N"`
+`curl "http://metamap-host:8080/form?input=cancer&args=-N"`
 
 ## Prerequisite:
 Get metamap2016v2.dockerimage original image from https://metamap.nlm.nih.gov/
