@@ -14,7 +14,7 @@ Get metamap2016v2.dockerimage original image from https://metamap.nlm.nih.gov/
 `docker run -d --restart unless-stopped -p 1795:1795 -p 5554:5554 -p 8080:8080  metamap_server`
 
 # Usage
-## Native metamap command line use
+## Native metamap client command line use
 `/home/metamap16/bin/metamap16 -S chi-metamap.ddns.net -@ chi-metamap.ddns.net`
 
 ## HTTP2Shell
