@@ -3,8 +3,9 @@ Based on the docker metamap image. Serves native Metamap services - Tagger and W
 `curl "http://metamap-host:8080/form?input=cancer&args=-N"`
 
 ## Prerequisite:
-Get metamap2016v2.dockerimage original image from https://metamap.nlm.nih.gov/
-`docker load --input metamap2016v2.dockerimage.tgz`
+Get metamap2016v2.dockerimage original image from https://metamap.nlm.nih.gov/   
+`docker load --input metamap2016v2.dockerimage.tgz`   
+`docker tag metamap2016v2.dockerimage metamap2016v2`
 
 ## Build image:
 `docker build . -t metamap_server`
