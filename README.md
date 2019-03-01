@@ -17,10 +17,6 @@ Get metamap2016v2.dockerimage original image from https://metamap.nlm.nih.gov/
 ## Native metamap client command line use
 `/home/metamap16/bin/metamap16 -S chi-metamap.ddns.net -@ chi-metamap.ddns.net`
 
-## HTTP2Shell
+## Test
 
-with input string  
-`curl "http://chi-metamap.ddns.net:8080/form?input=cancer"`  
-
-with arguments  
-`curl "http://chi-metamap.ddns.net:8080/form?input=cancer&args=-N"`
+`curl -X POST -d "input=cancer&args=-N" "http://chi-metamap.ddns.net:8080/form"`  
